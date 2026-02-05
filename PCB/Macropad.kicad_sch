@@ -5,7 +5,7 @@
 	(uuid "31abfe8d-74a8-4dce-9436-d51b7e41dd2c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "LED:SK6812"
+		(symbol "Hackclub Symbols:SK6812MINI-E"
 			(pin_names
 				(offset 0.254)
 			)
@@ -13,7 +13,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 5.08 5.715 0)
+				(at -3.556 5.842 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,16 +21,18 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "SK6812"
+			(property "Value" "SK6812MINI-E"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
 					)
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+			(property "Footprint" "Hackclub Footprints:MX_SK6812MINI-E_REV"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -40,7 +42,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
 				(at 2.54 -9.525 0)
 				(effects
 					(font
@@ -59,7 +61,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "RGB LED NeoPixel addressable"
+			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
 				(at 0 0 0)
 				(effects
 					(font
@@ -68,7 +70,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*"
+			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -77,7 +79,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SK6812_0_0"
+			(symbol "SK6812MINI-E_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -87,7 +89,18 @@
 					)
 				)
 			)
-			(symbol "SK6812_0_1"
+			(symbol "SK6812MINI-E_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -172,19 +185,16 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+			)
+			(symbol "SK6812MINI-E_1_1"
+				(text "NOT SK6812MINI"
+					(at 8.636 6.604 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
-			)
-			(symbol "SK6812_1_1"
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -195,7 +205,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -213,7 +223,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -231,7 +241,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -249,7 +259,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1631,6 +1641,83 @@
 		(uuid "feb9a490-aa76-46d4-8d78-dd5d85c6b607")
 	)
 	(symbol
+		(lib_id "Hackclub Symbols:SK6812MINI-E")
+		(at 160.02 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "182c7b6f-3c88-49b2-8d63-8ed32cbbc2f9")
+		(property "Reference" "D3"
+			(at 159.766 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 159.766 50.0381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Hackclub Footprints:MX_SK6812MINI-E_REV"
+			(at 161.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 162.56 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 160.02 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db4f8f92-7860-4720-8edd-0caa9bd3f251")
+		)
+		(pin "4"
+			(uuid "cd6b499b-02d1-48fb-8e0e-ff1999087925")
+		)
+		(pin "1"
+			(uuid "d2537eeb-631c-47d4-b02a-ad514f781ab3")
+		)
+		(pin "3"
+			(uuid "a68aaecd-2b78-4df7-ac00-518313225e34")
+		)
+		(instances
+			(project ""
+				(path "/31abfe8d-74a8-4dce-9436-d51b7e41dd2c"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 181.61 54.61 0)
 		(unit 1)
@@ -1691,82 +1778,6 @@
 			(project ""
 				(path "/31abfe8d-74a8-4dce-9436-d51b7e41dd2c"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812")
-		(at 160.02 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4253a2d9-8c76-4497-aaed-0e4ad3ee309a")
-		(property "Reference" "D1"
-			(at 170.18 58.3498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 170.18 60.8898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 161.29 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 162.56 74.295 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 160.02 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "f054c1a4-d727-4b07-8363-c48a72bb23a7")
-		)
-		(pin "2"
-			(uuid "f55e91a1-49ef-46f5-86a9-948cdc46ed9c")
-		)
-		(pin "3"
-			(uuid "9e583e86-e707-4c41-bcd7-a1d1660ece8b")
-		)
-		(pin "1"
-			(uuid "b0fd4a8e-6026-46f7-bf09-7fc0a2197529")
-		)
-		(instances
-			(project ""
-				(path "/31abfe8d-74a8-4dce-9436-d51b7e41dd2c"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -1835,6 +1846,84 @@
 			(project "Macropad"
 				(path "/31abfe8d-74a8-4dce-9436-d51b7e41dd2c"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hackclub Symbols:SK6812MINI-E")
+		(at 181.61 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66ac108c-f340-4bc4-a9ac-b19c2f1ac975")
+		(property "Reference" "D1"
+			(at 207.01 58.3498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 207.01 60.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Hackclub Footprints:MX_SK6812MINI-E_REV"
+			(at 182.88 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 184.15 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 181.61 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "68636ef8-62f3-42fe-a3de-306249e0623d")
+		)
+		(pin "4"
+			(uuid "7af41a5d-6e5b-47af-8dce-545531d0c0ec")
+		)
+		(pin "1"
+			(uuid "2b316a95-ed5d-4f92-a40e-885920d3d120")
+		)
+		(pin "2"
+			(uuid "108fc7e3-f355-47cd-92c1-c9b9087a345d")
+		)
+		(instances
+			(project ""
+				(path "/31abfe8d-74a8-4dce-9436-d51b7e41dd2c"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -1971,81 +2060,6 @@
 			(project ""
 				(path "/31abfe8d-74a8-4dce-9436-d51b7e41dd2c"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812")
-		(at 181.61 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b92bc2b-b3ab-4028-84fe-393097c24b8b")
-		(property "Reference" "D2"
-			(at 191.77 58.3498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 191.77 60.8898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
-			(at 182.88 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 184.15 74.295 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 181.61 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7867d477-18bd-4fda-b269-1fde26545486")
-		)
-		(pin "2"
-			(uuid "bfcc8554-3d6d-42ee-b2bb-5364ce0a43a1")
-		)
-		(pin "1"
-			(uuid "c53ec0ae-a4ef-4454-8efd-f6b80110cb65")
-		)
-		(pin "4"
-			(uuid "f325e8b0-8f6a-4332-9ff3-3f26978f8633")
-		)
-		(instances
-			(project ""
-				(path "/31abfe8d-74a8-4dce-9436-d51b7e41dd2c"
-					(reference "D2")
 					(unit 1)
 				)
 			)
