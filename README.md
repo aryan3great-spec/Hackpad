@@ -1,9 +1,11 @@
 This will be the design of my hackpad
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/44216af7-156c-44dd-8982-e8de4b151ba3" />
 This is the schematic
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/dfcc76e8-544b-4810-ab83-0f354057ecf4" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/481e0654-9a7c-4847-9c01-c5f84bb7cbf2" />
+
 This is the PCB
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/c5bd6429-a9a1-457e-a740-61afe0bf9d94" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/876496f1-2cd8-4566-95af-555387c31ed0" />
+
 BOM:
 
 4x Cherry MX Switches
